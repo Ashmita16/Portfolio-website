@@ -268,26 +268,26 @@ p {
 
 /* End Hero Section */
 
-/* Qualification Section */
-#qualification .qualification {
+/* Qualifications Section */
+#qualifications .qualifications {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#qualification .qualification-top{
+#qualifications .qualifications-top{
 	max-width: 500px;
 	margin: 0 auto;
 }
-#qualification .qualification-bottom {
+#qualifications .qualifications-bottom {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
-#qualification .qualification-item {
+#qualifications .qualifications-item {
 	flex-basis: 80%;
 	display: flex;
 	align-items: flex-start;
@@ -302,7 +302,7 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-#qualification .qualification-item::after {
+#qualifications .qualifications-item::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -313,40 +313,40 @@ p {
 	opacity: 0.9;
 	z-index: -1;
 }
-#qualification .qualification-bottom .icon {
+#qualifications .qualifications-bottom .icon {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
 }
-#qualification .qualification-item h2 {
+#qualifications .qualifications-item h2 {
 	font-size: 2rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
-#qualification .qualification-item p {
+#qualifications .qualifications-item p {
 	color: white;
 	text-align: left;
 }
-/* End Qualification Section */
+/* End Qualifications Section */
 
-/* Projects section */
-#projects .projects {
+/* Skills section */
+#skills .skills {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
+#skills .skills-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#skills .all-skills {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
+#skills .skills-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -356,7 +356,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
+#skills .skills-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -367,25 +367,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#projects .project-info h1 {
+#skills .skills-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
+#skills .skills-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#projects .project-info p {
+#skills .skills-info p {
 	color: white;
 }
-#projects .project-img {
+#skills .skills-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#projects .project-img:after {
+#skills .skills-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -395,13 +395,13 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
 }
-#projects .project-img img {
+#skills .skills-img img {
 	transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#skills .skills-item:hover .skills-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* End Skills section */
 
 /* About Section */
 #about .about {
@@ -548,7 +548,7 @@ p {
 	}
 	/* End Hero */
 
-	/* Qualification Section */
+	/* Qualifications Section */
 	#qualifications .qualifications {
 		flex-direction: column;
 		text-align: center;
@@ -608,7 +608,7 @@ p {
 		color: white;
 		text-align: left;
 	}
-	/* End Services Section */
+	/* End Qualifications Section */
 
 	/* Project */
 	#skills .skills {
